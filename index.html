@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+  <head>
+    <!-- Set the page title -->
+    <title>Final Exam</title>
 
-<head>
-  <!-- Set the page title -->
-  <title>Final Exam</title>
+    <!-- Set the charset we're using to UTF-8 -->
+    <meta charset="utf-8" />
 
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+    <!-- Set the screens default zoom / scale to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Specifies the document mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Set the CSS Reset File -->
+    <link rel="stylesheet" href="./reset.css" />
 
-  <!-- Set the CSS Reset File -->
-  <link rel="stylesheet" href="./reset.css" />
+    <!-- Set some basic CSS for the header and body -->
+    <link rel="stylesheet" href="./style.css" />
 
-  <!-- Set some basic CSS for the header and body -->
-  <link rel="stylesheet" href="./style.css" />
+    <!-- Set the Favicon  -->
+    <link rel="icon" href="./images/favicon/window.svg" type="image/svg+xml" />
+  </head>
 
-  <!-- Set the Favicon  -->
-  <link rel="icon" href="./images/favicon/window.svg" type="image/svg+xml" />
-
-</head>
-
-<body>
-
-  <!--
+  <body>
+    <!--
 
     FINAL EXAM CONTENT
 
@@ -114,157 +111,163 @@
 
   -->
 
-  <main>
-    <div class="page-container">
-      <header>
-        <!-- Site Header (hidden text - not visible on screen) -->
-        <h2 style="display: none;">Site Header</h2>
-        
-        <!-- SVG logo container -->
-        <div class="logo-container">
-          <!-- Amy's Web Development Agency Logo -->
-          <img src="./images/logo/logo-light.svg" alt="Amy's Web Development Agency Logo" />
-        </div>
+    <main>
+      <div class="page-container">
+        <header>
+          <!-- Site Header (hidden text - not visible on screen) -->
+          <h2 style="display: none">Site Header</h2>
 
-        <!-- "Contact Us" link container -->
-        <div class="contact-container">
-          <!-- Contact Us -->
-          <nav>
-            <ul>
-              <li><a href="#contact">Contact Us</a></li>
-              <li><a href="#contact">Projects</a></li>
-              <li><a href="#contact">Linkedin</a></li>
-              <li><a href="#contact">References</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+          <!-- SVG logo container -->
+          <div class="logo-container">
+            <!-- Amy's Web Development Agency Logo -->
+            <img
+              src="./images/logo/logo-light.svg"
+              alt="Amy's Web Development Agency Logo"
+            />
+          </div>
 
-      <section class="hero">
-        <!-- Amy's Web Development Agency (hidden text - not visible on screen) -->
-        <h2 style="display: none;">Amy's Web Development Agency</h2>
-  
-        <!-- Hero content -->
-        <div class="hero-content">
-          <h1>Web Development Solutions Made Easy</h1>
-          <p>Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</p>
-        </div>
-      </section>
+          <!-- "Contact Us" link container -->
+          <div class="contact-container">
+            <!-- Contact Us -->
+            <nav>
+              <ul>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Projects</a></li>
+                <li><a href="#contact">Linkedin</a></li>
+                <li><a href="#contact">References</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
-      <section class="skills-section">
-        <h2 style="display: none;">My Skills</h2>
-      
-        <div class="skill-rectangle web-development">
-          <p>Web Development</p>
-        </div>
-      
-        <div class="skill-rectangle ui-ux">
-          <p>UI/UX</p>
-        </div>
-      
-        <div class="skill-rectangle css">
-          <p>CSS</p>
-        </div>
-        
-        <div class="skill-rectangle javascript">
-          <p>JavaScript</p>
-        </div>
+        <section class="hero">
+          <!-- Amy's Web Development Agency (hidden text - not visible on screen) -->
+          <h2 style="display: none">Amy's Web Development Agency</h2>
 
-        <div class="skill-rectangle html">
-          <p>HTML</p>
-        </div>
-      
-        <div class="skill-rectangle github">
-          <p>GitHub</p>
-        </div>
+          <!-- Hero content -->
+          <div class="hero-content">
+            <h1>Web Development Solutions Made Easy</h1>
+            <p>
+              Crafting Digital Dreams: Transforming Code into Captivating
+              Experiences - Your Vision, My Expertise.
+            </p>
+          </div>
+        </section>
 
-        
-      </section>
+        <section class="skills-section">
+          <h2 style="display: none">My Skills</h2>
 
-      <section class="about-me">
-        <div class="pic">
-          <img src="images/about/about.jpg" alt="About Amy">
-        </div>
-        <div class="about-me-content">
-          <h1>Hey, I'm Amy. Are you ready to level up your web project?</h1>
-          <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
-          <button class="abt-btn">About me</button>
-        </div>
-      </section>
-      
+          <div class="skill-rectangle web-development">
+            <p>Web Development</p>
+          </div>
 
+          <div class="skill-rectangle ui-ux">
+            <p>UI/UX</p>
+          </div>
 
-      <section class="My-work">
-        <div class="My-Work-Content">
-          <h1>My Work</h1>
-          <div class="flex-container">
-            <div class="column-4">
-              <img src="images/work/work-1.png" alt="Work 1">
-              <h4>Tutorial Exercise 03</h4>
-              <p class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-              </p>
-            </div>
-            <div class="column-4">
-              <img src="images/work/work-2.png" alt="Work 2">
-              <h4>Tutorial Exercise 05</h4>
-              <p class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-              </p>
-            </div>
-            <div class="column-4">
-              <img src="images/work/work-3.png" alt="Work 3">
-              <h4>Tutorial Excercise 07</h4>
-              <p class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-              </p>
-            </div>
-            <div class="column-4">
-              <img src="images/work/work-4.png" alt="Work 4">
-              <h4>Tutorial Exercise 09</h4>
-              <p class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </p>
+          <div class="skill-rectangle css">
+            <p>CSS</p>
+          </div>
+
+          <div class="skill-rectangle javascript">
+            <p>JavaScript</p>
+          </div>
+
+          <div class="skill-rectangle html">
+            <p>HTML</p>
+          </div>
+
+          <div class="skill-rectangle github">
+            <p>GitHub</p>
+          </div>
+        </section>
+
+        <section class="about-me">
+          <div class="pic">
+            <img src="images/about/about.jpg" alt="About Amy" />
+          </div>
+          <div class="about-me-content">
+            <h1>Hey, I'm Amy. Are you ready to level up your web project?</h1>
+            <p>
+              I'm a web developer based in Ottawa, Canada. I enjoy creating
+              things that live on the internet, whether that be websites,
+              applications, or anything in between. My goal is to always build
+              products that provide pixel-perfect, performant experiences.
+            </p>
+            <button class="abt-btn">About me</button>
+          </div>
+        </section>
+
+        <section class="My-work">
+          <div class="My-Work-Content">
+            <h1>My Work</h1>
+            <div class="flex-container">
+              <div class="column-4">
+                <img src="images/work/work-1.png" alt="Work 1" />
+                <h4>Tutorial Exercise 03</h4>
+                <p class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </p>
+              </div>
+              <div class="column-4">
+                <img src="images/work/work-2.png" alt="Work 2" />
+                <h4>Tutorial Exercise 05</h4>
+                <p class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </p>
+              </div>
+              <div class="column-4">
+                <img src="images/work/work-3.png" alt="Work 3" />
+                <h4>Tutorial Excercise 07</h4>
+                <p class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </p>
+              </div>
+              <div class="column-4">
+                <img src="images/work/work-4.png" alt="Work 4" />
+                <h4>Tutorial Exercise 09</h4>
+                <p class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
+        <section class="contact-me">
+          <div class="contact-me-content">
+            <h1>Book a call with me</h1>
+            <p>
+              Excited to chat! Whether you have a project in mind or just want
+              to explore possibilities, let's connect. Use the form below to
+              suggest a time, and I'll reach out to confirm. Can't wait to
+              discuss your ideas!
+            </p>
+            <button class="contact-btn">Contact me</button>
+          </div>
+        </section>
 
-      <section class="contact-me">
-        <div class="contact-me-content">
-          <h1>Book a call with me</h1>
-          <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!</p>
-          <button class="contact-btn">Contact me</button>
-        </div>
-      </section>
+        <section class="footer">
+          <!-- Site Footer (hidden text - not visible on screen) -->
+          <h2 style="display: none">Site Footer</h2>
 
-      <section class="footer">
-        <!-- Site Footer (hidden text - not visible on screen) -->
-        <h2 style="display: none;">Site Footer</h2>
-        
-        <!-- Amy's Web Development Agency Logo -->
-        <div class="footer-logo-container">
-          <img src="./images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo" />
-        </div>
-        
-        <!-- Copyright information -->
-        <p>© 2023 Amy's Web Development Agency</p>
-      </section>
+          <!-- Amy's Web Development Agency Logo -->
+          <div class="footer-logo-container">
+            <img
+              src="./images/logo/logo-dark.svg"
+              alt="Amy's Web Development Agency Logo"
+            />
+          </div>
 
-
-    </div>
-  </main>
-
-
-</body>
-</html>
-
-
-</body>
+          <!-- Copyright information -->
+          <p>© 2023 Amy's Web Development Agency</p>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
