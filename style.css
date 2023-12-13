@@ -67,3 +67,267 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+img {
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color:#ffafcc;
+  color: #f8f4f4;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav li a:hover {
+  background-color: #f8f4f4;
+  color: #ffafcc;
+}
+
+.logo-container {
+  background-color: rgb(0, 0, 0);
+  padding: 10px; 
+  border-radius: 15px; 
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-content {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.about-me-content {
+  max-width: 500px; 
+}
+
+.pic {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+.pic img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.abt-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffafcc;
+  border: 2px solid transparent; 
+  border-radius: 20px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.abt-btn:hover {
+  background-color: #f8f4f4;
+  color: #ffafcc;
+}
+
+
+
+.My-Work-Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.My-Work-Content h1 {
+  margin-bottom: 20px;
+}
+
+.My-work .tags {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: bolder;
+}
+
+.My-work .tags span {
+  background-color: #ffafcc;
+  color: black;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column-4 {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .column-4 {
+    width: 100%;
+  }
+}
+
+.column-4 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-style: solid; 
+  border-radius: 5px;
+}
+
+.column-4 h4 {
+  margin-top: 10px;
+}
+
+
+.contact-me {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #d1a3ee;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.contact-me-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-me-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-me-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #d662ab;
+  border-color: #d662ab; 
+  color: #fff;
+}
+
+
+
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.skill-rectangle {
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #3498db;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.web-development {
+  background-color: #cdb4db;
+  height: 320px;
+  width: 300px;
+}
+
+.ui-ux {
+  background-color: #ffc8dd;
+  width: 140px;
+}
+
+.css {
+  background-color: #ffafcc;
+  width: 140px;
+}
+
+.html {
+  background-color: #a2d2ff;
+  margin-top: -160px;
+  margin-left: 330px;
+}
+
+.javascript {
+  background-color: #bde0fe;
+}
+
+.github {
+  background-color: #cdb4db;
+  margin-top: -160px;
+  margin-left: 670px;
+}
+
+
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer img {
+  max-width: 100px;
+}
